@@ -12,8 +12,8 @@ A plugin marketplace for Claude Code.
 
 | Plugin | Version | Description |
 |--------|---------|-------------|
-| [oberskills](https://github.com/ryanthedev/oberskills) | 1.1.0 | Hypothesis-driven debugging, prompt engineering, and agent dispatch enforcement |
-| [code-foundations](https://github.com/ryanthedev/code-foundations) | 1.0.0 | Code Complete-based software engineering skills |
+| [oberskills](https://github.com/ryanthedev/oberskills) | 1.3.0 | Hypothesis-driven debugging, prompt engineering, and agent dispatch enforcement |
+| [code-foundations](https://github.com/ryanthedev/code-foundations) | 1.4.0 | Code Complete-based software engineering skills |
 
 ### oberskills
 
