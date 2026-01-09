@@ -14,7 +14,7 @@
         "repo": "ryanthedev/oberskills"
       },
       "description": "Advanced Claude Code skills: hypothesis-driven debugging, prompt optimization, agent dispatch enforcement, and parallel agents",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
       "name": "code-foundations",
