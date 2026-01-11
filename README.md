@@ -12,7 +12,7 @@ A plugin marketplace for Claude Code.
 
 | Plugin | Version | Description |
 |--------|---------|-------------|
-| [oberskills](https://github.com/ryanthedev/oberskills) | 1.4.0 | Hypothesis-driven debugging, prompt engineering, agent dispatch, and meta-planning |
+| [oberskills](https://github.com/ryanthedev/oberskills) | 1.6.0 | Hypothesis-driven debugging, prompt engineering, agent dispatch, meta-planning, and plan execution |
 | [code-foundations](https://github.com/ryanthedev/code-foundations) | 1.4.0 | Code Complete-based software engineering skills |
 
 ### oberskills
@@ -25,6 +25,7 @@ Advanced Claude Code skills:
 | **oberprompt** | Research-backed prompt engineering for LLM systems |
 | **oberagent** | Enforces prompt engineering best practices before agent dispatch |
 | **oberplan** | Meta-planning orchestration with lens skills and final review |
+| **oberexec** | Subagent-driven plan executor with checkpoints and code reviews |
 
 ### code-foundations
 
