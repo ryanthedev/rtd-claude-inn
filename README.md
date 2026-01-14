@@ -13,7 +13,7 @@ A plugin marketplace for Claude Code.
 | Plugin | Version | Description |
 |--------|---------|-------------|
 | [oberskills](https://github.com/ryanthedev/oberskills) | 1.11.0 | Hypothesis-driven debugging, prompt engineering, agent dispatch, meta-planning, plan execution, and web search |
-| [code-foundations](https://github.com/ryanthedev/code-foundations) | 1.5.2 | Code Complete-based software engineering skills |
+| [code-foundations](https://github.com/ryanthedev/code-foundations) | 1.7.0 | Software engineering skills from Code Complete & APOSD with three-level code review system |
 
 ### oberskills
 
@@ -29,23 +29,49 @@ Advanced Claude Code skills:
 
 ### code-foundations
 
-Code Complete-based software engineering skills:
+Software engineering skills from Code Complete (McConnell) and A Philosophy of Software Design (Ousterhout):
+
+**Code Review Commands:**
+
+| Command | Level | Purpose |
+|---------|-------|---------|
+| `/check-commit` | Quick | Big-O, complexity, style, obvious bugs (~2 min) |
+| `/review-changes` | Medium | Design, errors, correctness (~5-10 min) |
+| `/review-pr` | Full | Multi-dimensional with parallel agents (~15-30 min) |
+
+**Review Agents:**
+
+| Agent | Focus |
+|-------|-------|
+| **security-reviewer** | Input validation, injection, auth, secrets |
+| **performance-reviewer** | Big-O, algorithms, scaling |
+| **maintainability-reviewer** | Complexity symptoms, cohesion, coupling |
+| **error-handling-reviewer** | Silent failures, catch blocks |
+| **clarity-reviewer** | Naming, comments, readability |
+| **correctness-reviewer** | Boundaries, concurrency, edge cases |
+
+**CC Skills (Process & Metrics):**
 
 | Skill | Purpose |
 |-------|---------|
-| **code-foundations** | Master dispatcher - invokes appropriate skills based on activity |
-| **cc-developer-character** | Mindset and discipline foundations |
-| **cc-construction-prerequisites** | Requirements and design before coding |
-| **cc-pseudocode-programming** | Design routines with pseudocode first |
-| **cc-routine-and-class-design** | High-quality routine and class interfaces |
-| **cc-control-flow-quality** | Clean control structures and logic |
-| **cc-data-organization** | Variable naming, scope, and data types |
-| **cc-defensive-programming** | Error handling and robustness |
-| **cc-code-layout-and-style** | Formatting and self-documenting code |
-| **cc-quality-practices** | Code reviews, testing, debugging |
-| **cc-refactoring-guidance** | Safe refactoring strategies |
-| **cc-integration-practices** | Integration and build processes |
+| **code-foundations** | Master dispatcher with checklists |
+| **cc-developer-character** | Mindset and discipline |
+| **cc-routine-and-class-design** | Cohesion, coupling, inheritance |
+| **cc-defensive-programming** | Error handling, validation |
+| **cc-refactoring-guidance** | Safe refactoring process |
+| **cc-quality-practices** | Testing, debugging, reviews |
 | **cc-performance-tuning** | Measure-first optimization |
+
+**APOSD Skills (Design Philosophy):**
+
+| Skill | Purpose |
+|-------|---------|
+| **aposd-designing-deep-modules** | Interface design, design-it-twice |
+| **aposd-simplifying-complexity** | Error reduction, pull-down technique |
+| **aposd-improving-code-clarity** | Comments-first, naming |
+| **aposd-maintaining-design-quality** | Strategic vs tactical mindset |
+| **aposd-reviewing-module-design** | Complexity symptoms detection |
+| **aposd-verifying-correctness** | Pre-commit verification |
 
 ## Installing Plugins
 
