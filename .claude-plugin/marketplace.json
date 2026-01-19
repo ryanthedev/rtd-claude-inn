@@ -23,7 +23,7 @@
         "repo": "ryanthedev/code-foundations"
       },
       "description": "Software engineering skills from Code Complete and A Philosophy of Software Design. 15 CC skills with Pattern Reuse Gate (search codebase before implementing). Three-level code review with 5 specialized agents, plus prototype→whiteboarding→building workflow.",
-      "version": "2.4.0"
+      "version": "2.5.0"
     }
   ]
 }
