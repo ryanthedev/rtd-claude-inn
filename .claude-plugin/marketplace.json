@@ -22,8 +22,8 @@
         "source": "github",
         "repo": "ryanthedev/code-foundations"
       },
-      "description": "Software engineering skills from Code Complete and A Philosophy of Software Design. Includes three-level code review system with 5 specialized agents, plus prototype→whiteboarding→building workflow for feature development with quality gates.",
-      "version": "2.2.1"
+      "description": "Software engineering skills from Code Complete and A Philosophy of Software Design. 15 CC skills including scientific debugging and table-driven methods. Three-level code review with 5 specialized agents, plus prototype→whiteboarding→building workflow.",
+      "version": "2.3.0"
     }
   ]
 }
