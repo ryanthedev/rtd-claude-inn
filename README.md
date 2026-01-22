@@ -24,11 +24,11 @@ Advanced Claude Code skills:
 | **oberdebug** | Hypothesis-driven debugging with evidence-based root cause analysis |
 | **oberprompt** | Research-backed prompt engineering for LLM systems |
 | **oberagent** | Enforces prompt engineering best practices before agent dispatch |
-| **oberplan** | Meta-planning orchestration with lens skills and final review |
-| **oberexec** | Subagent-driven plan executor with checkpoints and code reviews |
-| **oberweb** | Multi-dimensional web search with parallel haiku subagents |
+| **oberweb** | Multi-dimensional web search with file-based results and opus synthesis |
 | **oberhack** | Quick hack mode - no ceremony, just GROK → DISPATCH → DONE |
 | **obercreate** | Skill creation with pressure testing (RED-GREEN-REFACTOR) |
+| ~~oberplan~~ | *Deprecated* - Use code-foundations:whiteboarding instead |
+| ~~oberexec~~ | *Deprecated* - Use code-foundations:building instead |
 
 ### code-foundations
 
