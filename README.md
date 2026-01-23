@@ -13,7 +13,7 @@ A plugin marketplace for Claude Code.
 | Plugin | Version | Description |
 |--------|---------|-------------|
 | [oberskills](https://github.com/ryanthedev/oberskills) | 1.16.0 | Hypothesis-driven debugging, prompt engineering, agent dispatch, meta-planning, plan execution, web search, quick hack mode, and skill creation |
-| [code-foundations](https://github.com/ryanthedev/code-foundations) | 2.7.5 | Software engineering skills from Code Complete & APOSD with three-level code review system |
+| [code-foundations](https://github.com/ryanthedev/code-foundations) | 2.8.0 | Software engineering skills from Code Complete & APOSD with three-level code review system |
 
 ### oberskills
 
@@ -42,16 +42,15 @@ Software engineering skills from Code Complete (McConnell) and A Philosophy of S
 | `/review-changes` | Medium | Design, errors, correctness (~5-10 min) |
 | `/review-pr` | Full | Multi-dimensional with parallel agents (~15-30 min) |
 
-**Review Agents:**
+**Review Agents (5 Consolidated):**
 
-| Agent | Focus |
-|-------|-------|
-| **security-reviewer** | Input validation, injection, auth, secrets |
-| **performance-reviewer** | Big-O, algorithms, scaling |
-| **maintainability-reviewer** | Complexity symptoms, cohesion, coupling |
-| **error-handling-reviewer** | Silent failures, catch blocks |
-| **clarity-reviewer** | Naming, comments, readability |
-| **correctness-reviewer** | Boundaries, concurrency, edge cases |
+| Agent | Combines | Focus |
+|-------|----------|-------|
+| **defensive-reviewer** | security + error-handling | Input validation, injection, auth, catch blocks |
+| **quality-reviewer** | maintainability + clarity | Complexity, cohesion, naming, readability |
+| **correctness-reviewer** | bugs + test coverage | Boundaries, concurrency, edge cases, tests |
+| **performance-reviewer** | algorithms + hot paths | Big-O, scaling, resource usage |
+| **documentation-reviewer** | docs + comments | README, API docs, comment quality |
 
 **CC Skills (Process & Metrics):**
 
