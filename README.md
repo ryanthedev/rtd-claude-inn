@@ -13,7 +13,7 @@ A plugin marketplace for Claude Code.
 | Plugin | Version | Description |
 |--------|---------|-------------|
 | [oberskills](https://github.com/ryanthedev/oberskills) | 1.17.0 | Hypothesis-driven debugging, prompt engineering, agent dispatch, meta-planning, plan execution, web search, quick hack mode, and skill creation |
-| [code-foundations](https://github.com/ryanthedev/code-foundations) | 2.9.4 | Software engineering skills from Code Complete & APOSD with three-level code review system |
+| [code-foundations](https://github.com/ryanthedev/code-foundations) | 3.0.0 | Software engineering skills with profile-driven code review and quality-gated execution |
 
 ### oberskills
 
@@ -32,48 +32,28 @@ Advanced Claude Code skills:
 
 ### code-foundations
 
-Software engineering skills from Code Complete (McConnell) and A Philosophy of Software Design (Ousterhout):
+AI that codes like a senior engineer. Checklists, quality gates, and verification built into every workflow.
 
-**Code Review Commands:**
+**Commands:**
 
-| Command | Level | Purpose |
-|---------|-------|---------|
-| `/review-commit` | Quick | Big-O, complexity, style, obvious bugs (~2 min) |
-| `/review-changes` | Medium | Design, errors, correctness (~5-10 min) |
-| `/review-pr` | Full | Multi-dimensional with parallel agents (~15-30 min) |
+| Command | Purpose |
+|---------|---------|
+| `/code-foundations:review` | Profile-driven code review (99-548 checks) |
+| `/code-foundations:whiteboarding` | Create implementation-ready plans |
+| `/code-foundations:building` | Execute plans with quality gates |
+| `/code-foundations:code` | Pseudocode-first development |
+| `/code-foundations:prototype` | Quick feasibility proof |
+| `/code-foundations:debug` | Scientific debugging with task tracking |
 
-**Review Agents (5 Consolidated):**
+**Code Review Profiles:**
 
-| Agent | Combines | Focus |
-|-------|----------|-------|
-| **defensive-reviewer** | security + error-handling | Input validation, injection, auth, catch blocks |
-| **quality-reviewer** | maintainability + clarity | Complexity, cohesion, naming, readability |
-| **correctness-reviewer** | bugs + test coverage | Boundaries, concurrency, edge cases, tests |
-| **performance-reviewer** | algorithms + hot paths | Big-O, scaling, resource usage |
-| **documentation-reviewer** | docs + comments | README, API docs, comment quality |
+| Profile | Checklists | Checks |
+|---------|------------|--------|
+| `--sanity` | 1 | 99 |
+| `--pr` | 10 | 548 |
+| Custom | varies | varies |
 
-**CC Skills (Process & Metrics):**
-
-| Skill | Purpose |
-|-------|---------|
-| **code-foundations** | Master dispatcher with checklists |
-| **cc-developer-character** | Mindset and discipline |
-| **cc-routine-and-class-design** | Cohesion, coupling, inheritance |
-| **cc-defensive-programming** | Error handling, validation |
-| **cc-refactoring-guidance** | Safe refactoring process |
-| **cc-quality-practices** | Testing, debugging, reviews |
-| **cc-performance-tuning** | Measure-first optimization |
-
-**APOSD Skills (Design Philosophy):**
-
-| Skill | Purpose |
-|-------|---------|
-| **aposd-designing-deep-modules** | Interface design, design-it-twice |
-| **aposd-simplifying-complexity** | Error reduction, pull-down technique |
-| **aposd-improving-code-clarity** | Comments-first, naming |
-| **aposd-maintaining-design-quality** | Strategic vs tactical mindset |
-| **aposd-reviewing-module-design** | Complexity symptoms detection |
-| **aposd-verifying-correctness** | Pre-commit verification |
+**Architecture:** Extraction → Checking (1 agent per checklist) → Investigation → Report
 
 ## Installing Plugins
 
