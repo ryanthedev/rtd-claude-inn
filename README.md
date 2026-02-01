@@ -13,7 +13,7 @@ A plugin marketplace for Claude Code.
 | Plugin | Version | Description |
 |--------|---------|-------------|
 | [oberskills](https://github.com/ryanthedev/oberskills) | 1.17.0 | Hypothesis-driven debugging, prompt engineering, agent dispatch, meta-planning, plan execution, web search, quick hack mode, and skill creation |
-| [code-foundations](https://github.com/ryanthedev/code-foundations) | 3.4.0 | Software engineering skills with 14-check sanity review and 614-check PR review |
+| [code-foundations](https://github.com/ryanthedev/code-foundations) | 3.5.0 | Software engineering skills with schema-enforced sanity review (14 checks) and PR review (614 checks) |
 
 ### oberskills
 
@@ -49,11 +49,13 @@ AI that codes like a senior engineer. Checklists, quality gates, and verificatio
 
 | Profile | Checklists | Checks |
 |---------|------------|--------|
-| `--sanity` | 1 | 99 |
-| `--pr` | 10 | 548 |
+| `--sanity` | 1 | 14 |
+| `--pr` | 10 | 614 |
 | Custom | varies | varies |
 
-**Architecture:** Extraction → Check Orchestrate → Checking (1 agent per ID prefix group) → Investigation → Report
+**Architecture:** Extraction → Orchestrate → Checking → Investigation → Dashboard
+
+**Enforcement:** Phase tracking via TaskCreate/TaskUpdate. Schema validation via bash scripts (add-finding.sh, add-verdict.sh).
 
 ## Installing Plugins
 
