@@ -11,19 +11,19 @@
       "name": "oberskills",
       "source": {
         "source": "github",
-        "repo": "ryanthedev/oberskills"
+        "repo": "ryanthedev/oberskills",
+        "ref": "main"
       },
-      "description": "Advanced Claude Code skills for prompt optimization, agent dispatch enforcement, skill creation and review, screenshot analysis, and web search",
-      "version": "1.20.0"
+      "description": "Advanced Claude Code skills for prompt optimization, agent dispatch enforcement, skill creation and review, screenshot analysis, and web search"
     },
     {
       "name": "code-foundations",
       "source": {
         "source": "github",
-        "repo": "ryanthedev/code-foundations"
+        "repo": "ryanthedev/code-foundations",
+        "ref": "main"
       },
-      "description": "Software engineering skills from Code Complete and A Philosophy of Software Design. Sanity review: 14 consensus-distilled checks with schema-enforced output. PR review: 614 checks with prefix-based grouping. Phase enforcement via TaskCreate/TaskUpdate.",
-      "version": "3.5.0"
+      "description": "Software engineering skills from Code Complete and A Philosophy of Software Design. Sanity review: 14 consensus-distilled checks with schema-enforced output. PR review: 614 checks with prefix-based grouping. Phase enforcement via TaskCreate/TaskUpdate."
     }
   ]
 }

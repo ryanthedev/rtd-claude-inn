@@ -10,52 +10,12 @@ A plugin marketplace for Claude Code.
 
 ## Available Plugins
 
-| Plugin | Version | Description |
-|--------|---------|-------------|
-| [oberskills](https://github.com/ryanthedev/oberskills) | 1.17.0 | Hypothesis-driven debugging, prompt engineering, agent dispatch, meta-planning, plan execution, web search, quick hack mode, and skill creation |
-| [code-foundations](https://github.com/ryanthedev/code-foundations) | 3.5.0 | Software engineering skills with schema-enforced sanity review (14 checks) and PR review (614 checks) |
+| Plugin | Description |
+|--------|-------------|
+| [oberskills](https://github.com/ryanthedev/oberskills) | Prompt engineering, agent dispatch enforcement, skill creation and review, screenshot analysis, and web search |
+| [code-foundations](https://github.com/ryanthedev/code-foundations) | Software engineering skills with schema-enforced sanity review (14 checks) and PR review (614 checks) |
 
-### oberskills
-
-Advanced Claude Code skills:
-
-| Skill | Purpose |
-|-------|---------|
-| **oberdebug** | Hypothesis-driven debugging with evidence-based root cause analysis |
-| **oberprompt** | Research-backed prompt engineering for LLM systems |
-| **oberagent** | Enforces prompt engineering best practices before agent dispatch |
-| **oberweb** | Multi-dimensional web search with file-based results and opus synthesis |
-| **oberhack** | Quick hack mode - no ceremony, just GROK → DISPATCH → DONE |
-| **obercreate** | Skill creation with pressure testing (RED-GREEN-REFACTOR) |
-| ~~oberplan~~ | *Deprecated* - Use code-foundations:whiteboarding instead |
-| ~~oberexec~~ | *Deprecated* - Use code-foundations:building instead |
-
-### code-foundations
-
-AI that codes like a senior engineer. Checklists, quality gates, and verification built into every workflow.
-
-**Commands:**
-
-| Command | Purpose |
-|---------|---------|
-| `/code-foundations:review` | Profile-driven code review (99-548 checks) |
-| `/code-foundations:whiteboarding` | Create implementation-ready plans |
-| `/code-foundations:building` | Execute plans with quality gates |
-| `/code-foundations:code` | Pseudocode-first development |
-| `/code-foundations:prototype` | Quick feasibility proof |
-| `/code-foundations:debug` | Scientific debugging with task tracking |
-
-**Code Review Profiles:**
-
-| Profile | Checklists | Checks |
-|---------|------------|--------|
-| `--sanity` | 1 | 14 |
-| `--pr` | 10 | 614 |
-| Custom | varies | varies |
-
-**Architecture:** Extraction → Orchestrate → Checking → Investigation → Dashboard
-
-**Enforcement:** Phase tracking via TaskCreate/TaskUpdate. Schema validation via bash scripts (add-finding.sh, add-verdict.sh).
+Plugins track the `main` branch of their source repos. Versions are managed in each plugin's own `plugin.json`.
 
 ## Installing Plugins
 
