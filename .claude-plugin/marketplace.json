@@ -23,7 +23,7 @@
         "repo": "ryanthedev/code-foundations",
         "ref": "main"
       },
-      "description": "Software engineering skills from Code Complete and A Philosophy of Software Design. Checklist-driven code review, debugging, whiteboarding, and quality gates."
+      "description": "Software engineering skills distilled from the industry's favorite books. Checklist-driven code review, debugging, whiteboarding, and quality gates."
     }
   ]
 }
