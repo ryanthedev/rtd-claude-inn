@@ -14,7 +14,7 @@
         "repo": "ryanthedev/oberskills",
         "ref": "main"
       },
-      "description": "Advanced Claude Code skills for prompt optimization, agent dispatch enforcement, skill creation and review, screenshot analysis, and web search"
+      "description": "Advanced Claude Code skills for prompt optimization, agent dispatch enforcement, skill creation and review, screenshot analysis, web search, and human-sounding writing"
     },
     {
       "name": "code-foundations",
