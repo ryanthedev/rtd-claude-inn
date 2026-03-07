@@ -15,7 +15,7 @@ A plugin marketplace for Claude Code.
 | [oberskills](https://github.com/ryanthedev/oberskills) | Prompt engineering, agent dispatch enforcement, skill creation and review, screenshot analysis, web search, and human-sounding writing |
 | [code-foundations](https://github.com/ryanthedev/code-foundations) | Software engineering skills distilled from the industry's favorite books. Checklist-driven code review, debugging, whiteboarding, and quality gates. |
 
-Plugins track the `main` branch of their source repos. Versions are managed in each plugin's own `plugin.json`.
+Plugins track the `main` branch of their source repos.
 
 ## Installing Plugins
 
