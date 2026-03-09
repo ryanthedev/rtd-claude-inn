@@ -24,6 +24,15 @@
         "ref": "main"
       },
       "description": "Software engineering skills distilled from the industry's favorite books. Checklist-driven code review, debugging, whiteboarding, and quality gates."
+    },
+    {
+      "name": "design-for-ai",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/design-for-ai",
+        "ref": "main"
+      },
+      "description": "Visual design principles for AI and developers — typography, color, composition, proportions, and visual hierarchy."
     }
   ]
 }
