@@ -1,25 +1,23 @@
 # RTD Claude Plugin Marketplace
 
-Plugins for Claude Code. Install once, update from source.
+Four plugins for Claude Code. Add the marketplace once, install what you need.
 
-## Installation
+## Add the Marketplace
 
 ```bash
 /plugin marketplace add ryanthedev/rtd-claude-inn
 ```
 
-## Available Plugins
+## Plugins
 
-| Plugin | Description |
+| Plugin | What it does |
 |--------|-------------|
-| [oberskills](https://github.com/ryanthedev/oberskills) | Prompt engineering, agent dispatch, skill creation, screenshot analysis, web search, and writing that sounds human |
-| [code-foundations](https://github.com/ryanthedev/code-foundations) | Software engineering skills from the industry's go-to books. Code review, debugging, whiteboarding, and quality gates |
-| [design-for-ai](https://github.com/ryanthedev/design-for-ai) | Visual design principles from *Design for Hackers*. Typography, color science, composition, motion, interaction states, and responsive design |
-| [react-native-foundations](https://github.com/ryanthedev/react-native-foundations.skill) | React Native development — doc search, iOS Simulator control, error diagnosis, runtime debugging, layout inspection, and accessibility auditing |
+| [oberskills](https://github.com/ryanthedev/oberskills) | Prompt engineering, agent dispatch, skill creation, web search, and writing that sounds human |
+| [code-foundations](https://github.com/ryanthedev/code-foundations) | Code review, debugging, whiteboarding, and quality gates drawn from the industry's go-to books |
+| [design-for-ai](https://github.com/ryanthedev/design-for-ai) | Typography, color science, composition, and visual hierarchy from *Design for Hackers* |
+| [react-native-foundations](https://github.com/ryanthedev/react-native-foundations.skill) | Doc search, iOS Simulator control, error diagnosis, runtime debugging, layout checks, and a11y auditing for React Native |
 
-All plugins track the `main` branch of their source repos.
-
-## Installing Plugins
+## Install
 
 ```bash
 /plugin install oberskills@rtd
@@ -28,17 +26,21 @@ All plugins track the `main` branch of their source repos.
 /plugin install react-native-foundations@rtd
 ```
 
-To update:
+## Update
 
-```bash
-/plugin update oberskills@rtd
-/plugin update code-foundations@rtd
-/plugin update design-for-ai@rtd
-/plugin update react-native-foundations@rtd
-```
-
-## Updating the Marketplace
+Refresh the marketplace listing:
 
 ```bash
 /plugin marketplace update rtd
 ```
+
+Pull the latest version of a plugin:
+
+```bash
+claude plugin update oberskills@rtd
+claude plugin update code-foundations@rtd
+claude plugin update design-for-ai@rtd
+claude plugin update react-native-foundations@rtd
+```
+
+All plugins track `main` on their source repos.
