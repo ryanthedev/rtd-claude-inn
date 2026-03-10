@@ -38,7 +38,7 @@
       "name": "react-native-foundations",
       "source": {
         "source": "github",
-        "repo": "ryanthedev/react-native.skill",
+        "repo": "ryanthedev/react-native-foundations.skill",
         "ref": "main"
       },
       "description": "React Native development skills — documentation search, iOS Simulator control, error diagnosis, runtime debugging, layout inspection, accessibility auditing, and coding guidance."
