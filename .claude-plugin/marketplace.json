@@ -33,6 +33,15 @@
         "ref": "main"
       },
       "description": "Visual design principles for AI and developers — typography, color, composition, proportions, and visual hierarchy."
+    },
+    {
+      "name": "react-native-foundations",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/react-native.skill",
+        "ref": "main"
+      },
+      "description": "React Native development skills — documentation search, iOS Simulator control, error diagnosis, runtime debugging, layout inspection, accessibility auditing, and coding guidance."
     }
   ]
 }

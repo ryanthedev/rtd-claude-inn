@@ -15,6 +15,7 @@ Plugins for Claude Code. Install once, update from source.
 | [oberskills](https://github.com/ryanthedev/oberskills) | Prompt engineering, agent dispatch, skill creation, screenshot analysis, web search, and writing that sounds human |
 | [code-foundations](https://github.com/ryanthedev/code-foundations) | Software engineering skills from the industry's go-to books. Code review, debugging, whiteboarding, and quality gates |
 | [design-for-ai](https://github.com/ryanthedev/design-for-ai) | Visual design principles from *Design for Hackers*. Typography, color science, composition, motion, interaction states, and responsive design |
+| [react-native-foundations](https://github.com/ryanthedev/react-native.skill) | React Native development — doc search, iOS Simulator control, error diagnosis, runtime debugging, layout inspection, and accessibility auditing |
 
 All plugins track the `main` branch of their source repos.
 
@@ -24,6 +25,7 @@ All plugins track the `main` branch of their source repos.
 /plugin install oberskills@rtd
 /plugin install code-foundations@rtd
 /plugin install design-for-ai@rtd
+/plugin install react-native-foundations@rtd
 ```
 
 To update:
@@ -32,6 +34,7 @@ To update:
 /plugin update oberskills@rtd
 /plugin update code-foundations@rtd
 /plugin update design-for-ai@rtd
+/plugin update react-native-foundations@rtd
 ```
 
 ## Updating the Marketplace
