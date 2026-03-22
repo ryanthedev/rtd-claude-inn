@@ -51,6 +51,15 @@
         "ref": "main"
       },
       "description": "Svelte and SvelteKit development skills — documentation search, browser automation via CDP, error diagnosis, coding guidance, and accessibility auditing."
+    },
+    {
+      "name": "claude-mux",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/claude-mux.mcp",
+        "ref": "main"
+      },
+      "description": "MCP server for tmux control and multi-agent coordination. Spawn workers, coordinate via messaging, share task lists, and manage tmux sessions from Claude Code."
     }
   ]
 }
