@@ -18,6 +18,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 | [react-native-foundations](https://github.com/ryanthedev/react-native-foundations.skill) | Doc search, iOS Simulator control, error diagnosis, runtime debugging, layout checks, and a11y auditing for React Native |
 | [svelte-foundations](https://github.com/ryanthedev/svelte-foundations.skill) | Svelte/SvelteKit docs, browser automation, error diagnosis, coding guidance, and a11y auditing |
 | [claude-mux](https://github.com/ryanthedev/claude-mux.mcp) | tmux control and multi-agent coordination — spawn workers, messaging, shared task lists |
+| [grug-brain](https://github.com/ryanthedev/grug-brain.mcp) | Persistent memory with FTS5 search, docs indexing, dreaming, and shared brain sync |
 
 ## Install
 
@@ -28,6 +29,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 /plugin install react-native-foundations@rtd
 /plugin install svelte-foundations@rtd
 /plugin install claude-mux@rtd
+/plugin install grug-brain@rtd
 ```
 
 ## Update
@@ -47,6 +49,7 @@ claude plugin update design-for-ai@rtd
 claude plugin update react-native-foundations@rtd
 claude plugin update svelte-foundations@rtd
 claude plugin update claude-mux@rtd
+claude plugin update grug-brain@rtd
 ```
 
 All plugins track `main` on their source repos.

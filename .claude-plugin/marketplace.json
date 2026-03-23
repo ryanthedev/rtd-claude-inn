@@ -60,6 +60,15 @@
         "ref": "main"
       },
       "description": "MCP server for tmux control and multi-agent coordination. Spawn workers, coordinate via messaging, share task lists, and manage tmux sessions from Claude Code."
+    },
+    {
+      "name": "grug-brain",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/grug-brain.mcp",
+        "ref": "main"
+      },
+      "description": "Persistent memory for LLMs with FTS5 search, docs indexing, dreaming, and shared brain sync. Markdown storage, git-tracked history, cross-linking."
     }
   ]
 }
