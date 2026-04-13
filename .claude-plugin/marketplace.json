@@ -69,6 +69,15 @@
         "ref": "main"
       },
       "description": "Persistent memory for LLMs with FTS5 search, docs indexing, dreaming, and shared brain sync. Markdown storage, git-tracked history, cross-linking."
+    },
+    {
+      "name": "penman",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/penman",
+        "ref": "main"
+      },
+      "description": "Markdown to rich text for any platform — Slack, Teams, Discord, Notion, Word, Outlook, Gmail, Confluence, Jira, PowerPoint. Copies styled HTML to clipboard ready to paste."
     }
   ]
 }
