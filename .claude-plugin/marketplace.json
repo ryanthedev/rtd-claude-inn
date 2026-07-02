@@ -32,7 +32,7 @@
         "repo": "ryanthedev/design-for-ai",
         "ref": "main"
       },
-      "description": "Visual design principles for AI and developers — typography, color, composition, proportions, and visual hierarchy."
+      "description": "A design-foundations system with a four-stage workflow (research → plan → mock → build) — doctrine-read design knowledge, a seeded composition dealer with user-pinnable axes, dual-blind review, and gated design artifacts."
     },
     {
       "name": "react-native-foundations",
