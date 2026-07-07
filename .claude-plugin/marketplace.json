@@ -78,6 +78,15 @@
         "ref": "main"
       },
       "description": "Markdown to rich text for any platform — Slack, Teams, Discord, Notion, Word, Outlook, Gmail, Confluence, Jira, PowerPoint. Copies styled HTML to clipboard ready to paste."
+    },
+    {
+      "name": "judge-fable",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/judge-fable",
+        "ref": "main"
+      },
+      "description": "Dispatch a Fable 5 subagent to review, judge, or answer a hard artifact under a curated discipline brief, returning only a distilled, evidence-backed verdict."
     }
   ]
 }
