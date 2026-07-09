@@ -87,6 +87,15 @@
         "ref": "main"
       },
       "description": "Dispatch a Fable 5 subagent to review, judge, or answer a hard artifact under a curated discipline brief, returning only a distilled, evidence-backed verdict."
+    },
+    {
+      "name": "systems-design",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/systems-design.skill",
+        "ref": "main"
+      },
+      "description": "System design interview preparation and architecture review — structured frameworks for distributed systems"
     }
   ]
 }
