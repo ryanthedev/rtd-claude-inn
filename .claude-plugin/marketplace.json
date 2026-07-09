@@ -14,7 +14,7 @@
         "repo": "ryanthedev/oberskills",
         "ref": "main"
       },
-      "description": "Advanced Claude Code skills for prompt optimization, agent dispatch enforcement, skill creation and review, screenshot analysis, web search, and human-sounding writing"
+      "description": "Prompt engineering, agent dispatch enforcement, skill creation and review, screenshot analysis, web search, and writing that doesn't sound like a robot wrote it. The skills I use every day, bundled up."
     },
     {
       "name": "code-foundations",
@@ -23,7 +23,7 @@
         "repo": "ryanthedev/code-foundations",
         "ref": "main"
       },
-      "description": "Software engineering skills distilled from the industry's favorite books. Checklist-driven code review, debugging, whiteboarding, and quality gates."
+      "description": "Software engineering habits pulled straight from the books that actually changed how I write code. Checklist-driven review, debugging, whiteboarding, and gates that keep quality honest."
     },
     {
       "name": "design-for-ai",
@@ -32,7 +32,7 @@
         "repo": "ryanthedev/design-for-ai",
         "ref": "main"
       },
-      "description": "A design-foundations system with a four-stage workflow (research → plan → mock → build) — doctrine-read design knowledge, a seeded composition dealer with user-pinnable axes, dual-blind review, and gated design artifacts."
+      "description": "A four-stage design workflow, research, plan, mock, build, built on real doctrine instead of vibes. Seeded composition dealer, user-pinnable axes, dual-blind review, and gated artifacts so nothing ships half-baked."
     },
     {
       "name": "react-native-foundations",
@@ -41,7 +41,7 @@
         "repo": "ryanthedev/react-native-foundations.skill",
         "ref": "main"
       },
-      "description": "React Native development skills — documentation search, iOS Simulator control, error diagnosis, runtime debugging, layout inspection, accessibility auditing, and coding guidance."
+      "description": "Everything I reach for on React Native: docs search, iOS Simulator control, error diagnosis, runtime debugging, layout checks, accessibility audits, and coding guidance that's actually current."
     },
     {
       "name": "svelte-foundations",
@@ -50,7 +50,7 @@
         "repo": "ryanthedev/svelte-foundations.skill",
         "ref": "main"
       },
-      "description": "Svelte and SvelteKit development skills — documentation search, browser automation via CDP, error diagnosis, coding guidance, and accessibility auditing."
+      "description": "The same kit for Svelte and SvelteKit: docs search, browser automation over CDP, error diagnosis, coding guidance, and accessibility audits."
     },
     {
       "name": "claude-mux",
@@ -59,7 +59,7 @@
         "repo": "ryanthedev/claude-mux.mcp",
         "ref": "main"
       },
-      "description": "MCP server for tmux control and multi-agent coordination. Spawn workers, coordinate via messaging, share task lists, and manage tmux sessions from Claude Code."
+      "description": "An MCP server for tmux, so an agent can spawn workers, talk to them, share task lists, and run whole tmux sessions without me babysitting it."
     },
     {
       "name": "grug-brain",
@@ -68,7 +68,7 @@
         "repo": "ryanthedev/grug-brain.mcp",
         "ref": "main"
       },
-      "description": "Persistent memory for LLMs with FTS5 search, docs indexing, dreaming, and shared brain sync. Markdown storage, git-tracked history, cross-linking."
+      "description": "Persistent memory for LLMs. FTS5 search, docs indexing, a dreaming pass, and brain sync across machines, all stored as plain markdown you can read and git-track yourself."
     },
     {
       "name": "penman",
@@ -77,16 +77,16 @@
         "repo": "ryanthedev/penman",
         "ref": "main"
       },
-      "description": "Markdown to rich text for any platform — Slack, Teams, Discord, Notion, Word, Outlook, Gmail, Confluence, Jira, PowerPoint. Copies styled HTML to clipboard ready to paste."
+      "description": "Paste markdown, get it looking right everywhere: Slack, Teams, Discord, Notion, Word, Outlook, Gmail, Confluence, Jira, PowerPoint. Copies styled HTML straight to your clipboard, ready to paste."
     },
     {
-      "name": "judge-fable",
+      "name": "fable-bench",
       "source": {
         "source": "github",
         "repo": "ryanthedev/judge-fable",
         "ref": "main"
       },
-      "description": "Dispatch a Fable 5 subagent to review, judge, or answer a hard artifact under a curated discipline brief, returning only a distilled, evidence-backed verdict."
+      "description": "Hand a hard call or a wide-open brainstorm to a Fable 5 subagent under a curated discipline brief. judge-fable renders the verdict, muse-fable spreads the ideas, and only the distilled result comes back. The deliberation stays in the sub-thread."
     },
     {
       "name": "systems-design",
@@ -95,7 +95,7 @@
         "repo": "ryanthedev/systems-design.skill",
         "ref": "main"
       },
-      "description": "System design interview preparation and architecture review — structured frameworks for distributed systems"
+      "description": "Frameworks I use for system design interviews and architecture review, built for distributed systems, not generic advice."
     }
   ]
 }
