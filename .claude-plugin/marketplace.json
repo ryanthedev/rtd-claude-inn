@@ -96,6 +96,15 @@
         "ref": "main"
       },
       "description": "Frameworks I use for system design interviews and architecture review, built for distributed systems, not generic advice."
+    },
+    {
+      "name": "herderp",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/herderp",
+        "ref": "main"
+      },
+      "description": "Wraps the herdr CLI in MCP tools, then does the fun part: necromancy. Point it at a space, see which Claude Code sessions died there, and bring the one you want back to life with claude --resume in a fresh herdr pane."
     }
   ]
 }
