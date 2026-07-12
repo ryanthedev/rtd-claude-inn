@@ -80,13 +80,13 @@
       "description": "Paste markdown, get it looking right everywhere: Slack, Teams, Discord, Notion, Word, Outlook, Gmail, Confluence, Jira, PowerPoint. Copies styled HTML straight to your clipboard, ready to paste."
     },
     {
-      "name": "fable-bench",
+      "name": "what",
       "source": {
         "source": "github",
-        "repo": "ryanthedev/judge-fable",
+        "repo": "ryanthedev/what-skills",
         "ref": "main"
       },
-      "description": "Hand a hard call or a wide-open brainstorm to a Fable 5 subagent under a curated discipline brief. judge-fable renders the verdict, muse-fable spreads the ideas, and only the distilled result comes back. The deliberation stays in the sub-thread."
+      "description": "Four skills for interrogating anything I'm working on: what-for draws out the real requirements, what-else spreads the options, what-if probes a plan for blind spots, what-breaks stress-tests the built thing. Each hands the work to a fresh Fable 5 agent and relays only the distilled result \u2014 the deliberation stays out of my context. Not just code: packs for writing, product, research, and life decisions load on demand."
     },
     {
       "name": "systems-design",
