@@ -113,7 +113,7 @@
         "repo": "ryanthedev/sdd",
         "ref": "main"
       },
-      "description": "Lets Claude hand a scoped job to another CLI and get a clean answer back. Fourteen harnesses ship: codex, grok, kimi, qwen and mistral for second opinions, agy for review and implementation, agy-image for pictures, and a yt-dlp/whisper/ffmpeg pipeline that turns a video URL into a transcript and keyframes. Each one runs as a child process in your repo and reports back {status, summary, artifacts, raw}, so Claude stays the brain and keeps a clean diff."
+      "description": "Lets Claude hand a scoped job to another CLI and get a clean answer back. Eleven harnesses ship: codex, grok, kimi, qwen and mistral for second opinions, agy for review and implementation, agy-image for pictures, and a yt-dlp/whisper/ffmpeg pipeline that turns a video URL into a transcript and keyframes. Each one runs as a child process in your repo and reports back {status, summary, artifacts, raw}, so Claude stays the brain and keeps a clean diff. It also tells you how much of your codex quota is left before you spend it."
     }
   ]
 }
