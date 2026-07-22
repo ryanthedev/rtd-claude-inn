@@ -114,6 +114,15 @@
         "ref": "main"
       },
       "description": "Lets Claude hand a scoped job to another CLI and get a clean answer back. Eleven harnesses ship: codex, grok, kimi, qwen and mistral for second opinions, agy for review and implementation, agy-image for pictures, and a yt-dlp/whisper/ffmpeg pipeline that turns a video URL into a transcript and keyframes. Each one runs as a child process in your repo and reports back {status, summary, artifacts, raw}, so Claude stays the brain and keeps a clean diff. It also tells you how much of your codex quota is left before you spend it."
+    },
+    {
+      "name": "siren",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/siren",
+        "ref": "main"
+      },
+      "description": "Mermaid diagrams that look like somebody made a decision, and that are right the first time. A semantic color palette so blue always means happy path and red always means failure, per-type quality checklists, and every silent-failure trap already mapped so you skip the render-fix-rerender loop. Ships a zero-dependency validator with 20 checks that catches what a render cannot, plus a no-build gallery site template with pan/zoom and export."
     }
   ]
 }

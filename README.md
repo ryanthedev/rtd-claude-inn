@@ -24,6 +24,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 | [systems-design](https://github.com/ryanthedev/systems-design.skill) | Frameworks for system design interviews and architecture review of distributed systems |
 | [herderp](https://github.com/ryanthedev/herderp) | herdr CLI as MCP tools, plus session necromancy — bring a dead Claude Code session back in a fresh pane |
 | [sdd](https://github.com/ryanthedev/sdd) | Delegate scoped work to CLI harnesses (codex, grok, kimi, qwen, mistral, agy), fan out, collect structured results — plus a video-to-transcript pipeline |
+| [siren](https://github.com/ryanthedev/siren) | Mermaid diagrams with a semantic color system, the silent-failure traps mapped, a 20-check preflight validator, and a no-build gallery template |
 
 ## Install
 
@@ -40,6 +41,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 /plugin install systems-design@rtd
 /plugin install herderp@rtd
 /plugin install sdd@rtd
+/plugin install siren@rtd
 ```
 
 ## Update
