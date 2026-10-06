@@ -123,6 +123,15 @@
         "ref": "main"
       },
       "description": "Mermaid diagrams that look like somebody made a decision, and that are right the first time. A semantic color palette so blue always means happy path and red always means failure, per-type quality checklists, and every silent-failure trap already mapped so you skip the render-fix-rerender loop. Ships a zero-dependency validator with 20 checks that catches what a render cannot, plus a no-build gallery site template with pan/zoom and export."
+    },
+    {
+      "name": "engram",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/engram",
+        "ref": "main"
+      },
+      "description": "Durable cross-session memory for Claude Code: hybrid search over episodic, semantic and graph memory on a self-hosted Engram server, with per-machine identities and opt-in sharing. Needs a running engramd, ENGRAM_ADDR/ENGRAM_TOKEN, and engram-mcp installed via go install."
     }
   ]
 }

@@ -25,6 +25,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 | [herderp](https://github.com/ryanthedev/herderp) | herdr CLI as MCP tools, plus session necromancy — bring a dead Claude Code session back in a fresh pane |
 | [sdd](https://github.com/ryanthedev/sdd) | Delegate scoped work to CLI harnesses (codex, grok, kimi, qwen, mistral, agy), fan out, collect structured results — plus a video-to-transcript pipeline |
 | [siren](https://github.com/ryanthedev/siren) | Mermaid diagrams with a semantic color system, the silent-failure traps mapped, a 20-check preflight validator, and a no-build gallery template |
+| [engram](https://github.com/ryanthedev/engram) | Durable cross-session memory on a self-hosted Engram server, with per-machine identities and opt-in sharing (needs `go install` of `engram-mcp`) |
 
 ## Install
 
@@ -42,6 +43,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 /plugin install herderp@rtd
 /plugin install sdd@rtd
 /plugin install siren@rtd
+/plugin install engram@rtd
 ```
 
 ## Update
