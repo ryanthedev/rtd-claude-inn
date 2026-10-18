@@ -26,6 +26,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 | [sdd](https://github.com/ryanthedev/sdd) | Delegate scoped work to CLI harnesses (codex, grok, kimi, qwen, mistral, agy), fan out, collect structured results — plus a video-to-transcript pipeline |
 | [siren](https://github.com/ryanthedev/siren) | Mermaid diagrams with a semantic color system, the silent-failure traps mapped, a 20-check preflight validator, and a no-build gallery template |
 | [engram](https://github.com/ryanthedev/engram) | Durable cross-session memory on a self-hosted Engram server, with per-machine identities and opt-in sharing (needs `go install` of `engram-mcp`) |
+| [domod](https://github.com/ryanthedev/domod) | A todo list and notepad you and Claude share across sessions, with action-item harvesting, go/no-go buttons and PR auto-close |
 
 ## Install
 
@@ -44,6 +45,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 /plugin install sdd@rtd
 /plugin install siren@rtd
 /plugin install engram@rtd
+/plugin install domod@rtd
 ```
 
 ## Update

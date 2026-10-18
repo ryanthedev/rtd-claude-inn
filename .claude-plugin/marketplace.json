@@ -132,6 +132,15 @@
         "ref": "main"
       },
       "description": "Durable cross-session memory for Claude Code: hybrid search over episodic, semantic and graph memory on a self-hosted Engram server, with per-machine identities and opt-in sharing. Needs a running engramd, ENGRAM_ADDR/ENGRAM_TOKEN, and engram-mcp installed via go install."
+    },
+    {
+      "name": "domod",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/domod",
+        "ref": "main"
+      },
+      "description": "A todo list and notepad you and Claude share across sessions. Claude files the action items it leaves you, takes the ones you hand back, and closes them when the work is done. A pane, a line above the prompt and your status line show what's open; a small model sorts requests out of replies, decision items get go/no-go buttons, and items naming a PR close when it merges. Every feature has its own switch in /config."
     }
   ]
 }
