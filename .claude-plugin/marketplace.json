@@ -141,6 +141,15 @@
         "ref": "main"
       },
       "description": "A todo list and notepad you and Claude share across sessions. Claude files the action items it leaves you, takes the ones you hand back, and closes them when the work is done. A pane, a line above the prompt and your status line show what's open; a small model sorts requests out of replies, decision items get go/no-go buttons, and items naming a PR close when it merges. Every feature has its own switch in /config."
+    },
+    {
+      "name": "proompt",
+      "source": {
+        "source": "github",
+        "repo": "ryanthedev/proompt",
+        "ref": "main"
+      },
+      "description": "Long prompts go through Haiku before Claude reads them and come out shorter: yours, the tasks Claude writes for subagents, SendMessage, and messages from other sessions. Paths, URLs, code, @-mentions and tags come through exactly, and any rewrite that loses one, answers instead of rewriting, or barely saves is thrown away for the original. /proompt last shows what you wrote beside what was sent."
     }
   ]
 }

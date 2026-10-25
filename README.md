@@ -27,6 +27,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 | [siren](https://github.com/ryanthedev/siren) | Mermaid diagrams with a semantic color system, the silent-failure traps mapped, a 20-check preflight validator, and a no-build gallery template |
 | [engram](https://github.com/ryanthedev/engram) | Durable cross-session memory on a self-hosted Engram server, with per-machine identities and opt-in sharing (needs `go install` of `engram-mcp`) |
 | [domod](https://github.com/ryanthedev/domod) | A todo list and notepad you and Claude share across sessions, with action-item harvesting, go/no-go buttons and PR auto-close |
+| [proompt](https://github.com/ryanthedev/proompt) | Compresses long prompts, subagent tasks, SendMessage and peer messages through Haiku, keeping paths, code and tags exact |
 
 ## Install
 
@@ -46,6 +47,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 /plugin install siren@rtd
 /plugin install engram@rtd
 /plugin install domod@rtd
+/plugin install proompt@rtd
 ```
 
 ## Update
