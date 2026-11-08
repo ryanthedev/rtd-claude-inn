@@ -104,7 +104,7 @@
         "repo": "ryanthedev/herderp",
         "ref": "main"
       },
-      "description": "Wraps the herdr CLI in MCP tools, then does the fun part: necromancy. Point it at a space, see which Claude Code sessions died there, and bring the one you want back to life with claude --resume in a fresh herdr pane."
+      "description": "MCP tools for herdr and the Herdr desktop app (herdr-core), side by side: one set of agent, layout and watch tools across both, plus adopt to move a Claude Code session into the Herdr app. Then the fun part: necromancy. See which sessions died in a space and read them back."
     },
     {
       "name": "sdd",
