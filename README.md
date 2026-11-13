@@ -28,6 +28,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 | [engram](https://github.com/ryanthedev/engram) | Durable cross-session memory on a self-hosted Engram server, with per-machine identities and opt-in sharing (needs `go install` of `engram-mcp`) |
 | [domod](https://github.com/ryanthedev/domod) | A todo list and notepad you and Claude share across sessions, with action-item harvesting, go/no-go buttons and PR auto-close |
 | [proompt](https://github.com/ryanthedev/proompt) | Compresses long prompts, subagent tasks, SendMessage and peer messages through Haiku, keeping paths, code and tags exact |
+| [destoopify](https://github.com/ryanthedev/destoopify) | Fixes spelling and grammar in what you type through Haiku before Claude reads it, without rephrasing; code and paths stay exact |
 
 ## Install
 
@@ -48,6 +49,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 /plugin install engram@rtd
 /plugin install domod@rtd
 /plugin install proompt@rtd
+/plugin install destoopify@rtd
 ```
 
 ## Update
