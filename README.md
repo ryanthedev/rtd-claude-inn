@@ -23,7 +23,7 @@ Plugins for Claude Code. Add the marketplace once, install what you need.
 | [what](https://github.com/ryanthedev/what-skills) | Four interrogation skills — requirements, options, blind spots, stress tests — each run by a fresh Fable 5 agent |
 | [systems-design](https://github.com/ryanthedev/systems-design.skill) | Frameworks for system design interviews and architecture review of distributed systems |
 | [herderp](https://github.com/ryanthedev/herderp) | herdr and the Herdr desktop app as one set of MCP tools, moving sessions between them, plus session necromancy |
-| [sdd](https://github.com/ryanthedev/sdd) | Delegate scoped work to CLI harnesses (codex, grok, kimi, qwen, mistral, agy) and decision models (Gemini Decisions, jev), fan out, collect structured results — plus a video-to-transcript pipeline |
+| [sdd](https://github.com/ryanthedev/sdd) | Delegate scoped work to CLI harnesses (codex, grok, kimi, qwen, mistral, agy) and the Gemini decision model, fan out, collect structured results — plus a video-to-transcript pipeline |
 | [siren](https://github.com/ryanthedev/siren) | Mermaid diagrams with a semantic color system, the silent-failure traps mapped, a 20-check preflight validator, and a no-build gallery template |
 | [engram](https://github.com/ryanthedev/engram) | Durable cross-session memory on a self-hosted Engram server, with per-machine identities and opt-in sharing (needs `go install` of `engram-mcp`) |
 | [domod](https://github.com/ryanthedev/domod) | A todo list and notepad you and Claude share across sessions, with action-item harvesting, go/no-go buttons and PR auto-close |
